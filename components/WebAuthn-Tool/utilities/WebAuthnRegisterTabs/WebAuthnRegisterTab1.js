@@ -4,6 +4,11 @@ import { getCredentialArrayStr } from "../getter-functions"
 
 import { registerPasskey } from "../webauthn-register-tab"
 
+import {Button} from 'react-bootstrap'
+
+import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
+import { solarizedlight, vscDarkPlus, dark, coldarkDark, materialDark, duotoneDark, oneDark} from 'react-syntax-highlighter/dist/esm/styles/prism';
+
 export function RenderPasskeyRegisterTabPage1(setChallenge, setFullname, setUsername, displaySpinner) {
     
     return (

@@ -1,3 +1,7 @@
+import {Button} from 'react-bootstrap'
+
+import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
+import { solarizedlight, vscDarkPlus, dark, coldarkDark, materialDark, duotoneDark, oneDark} from 'react-syntax-highlighter/dist/esm/styles/prism';
 
 export function renderPasskeyLoginTabPage4() {
     return (

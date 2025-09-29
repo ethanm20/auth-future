@@ -1,4 +1,8 @@
 import { finishPasskeyRegistration } from "../webauthn-register-tab"
+import {Button} from 'react-bootstrap'
+
+import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
+import { solarizedlight, vscDarkPlus, dark, coldarkDark, materialDark, duotoneDark, oneDark} from 'react-syntax-highlighter/dist/esm/styles/prism';
 
 export function RenderPasskeyRegisterTabPage2(currCredID, currPublicKey, currAlg, currTransports, currJSON, challenge) {
     return (
