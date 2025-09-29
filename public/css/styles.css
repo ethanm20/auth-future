@@ -1,0 +1,50 @@
+/* Glboal Styles */
+
+
+
+
+
+
+/* Footer */
+
+#footer-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+#footer-container-left {
+    width: 50%;
+}
+
+#footer-container-right {
+    width: 50%;
+    text-align: right;
+}
+
+@media (max-width: 768px) {
+  .github-text {
+    display: none;
+  }
+  .github-header-outer {
+    border-color: transparent !important;
+    font-size: 20px !important;
+  }
+
+  #otp-secret {
+    flex-direction: column !important;
+  }
+  /*.section-row {
+    flex-direction: column !important;
+  }*/
+
+  .section-row input {
+    min-width: 0px !important;
+  }
+}
+
+@media (max-width: 1000px) {
+  .navbar {
+    min-height: 60px !important;
+  }
+}
