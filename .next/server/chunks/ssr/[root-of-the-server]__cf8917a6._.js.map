@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 31, "column": 0}, "map": {"version":3,"sources":["file:///home/ethan/auth/AuthFutureImprovedv2/auth-future/pages/index.tsx"],"sourcesContent":["import { FeatureImage, WebAuthnTool} from \"@/components\"\n\nimport dynamic from 'next/dynamic';\n\nconst TOTPTool = dynamic(() => import('@/components/TOTP-Tool/TOTP-Tool'), { ssr: false });\n\nexport default function Home() {\n    return (\n        <>\n            <div>\n                <FeatureImage/>\n            </div>\n            <div>\n                <WebAuthnTool/>\n            </div>\n            <div>\n                <TOTPTool/>\n            </div>\n        </>\n    )\n}"],"names":[],"mappings":";;;;;AAAA;AAAA;AAAA;AAEA;;;;;;;;;;AAEA,MAAM,WAAW,IAAA,mIAAO,EAAC;;;;;;IAAoD,KAAK;;AAEnE,SAAS;IACpB,qBACI;;0BACI,qKAAC;0BACG,cAAA,qKAAC,8LAAY;;;;;;;;;;0BAEjB,qKAAC;0BACG,cAAA,qKAAC,sMAAY;;;;;;;;;;0BAEjB,qKAAC;0BACG,cAAA,qKAAC;;;;;;;;;;;;AAIjB","debugId":null}}]
+}

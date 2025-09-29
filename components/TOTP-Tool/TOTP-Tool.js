@@ -15,7 +15,10 @@ import { RenderIntervalMoreDetails, RenderIntervals } from './utilities/interval
 
 
 
-const base32Decode = require('base32-decode')
+//const base32Decode = require('base32-decode')
+import * as base32Decode from 'base32-decode';
+import * as QRCode from 'qrcode';
+
 
 export default function TOTPTool() {
     const [secretKeyValue, setSecretKey] = useState(GenerateBase32SecretKey());
@@ -63,7 +66,7 @@ export default function TOTPTool() {
         
         setQRTextValue(qrCodeStr)
 
-        const QRCode = require('qrcode');
+        //const QRCode = require('qrcode');
 
         QRCode.toDataURL(qrCodeStr, {
                 errorCorrectionLevel: 'H',

@@ -1,6 +1,8 @@
 import { fixBase32Padding, encodeLongLongInt } from './base32-utilities';
 
-const base32Decode = require('base32-decode')
+//const base32Decode = require('base32-decode')
+import * as base32Decode from 'base32-decode';
+
 
 export async function hmacSha1(key, countInt) {
     const paddedKey = fixBase32Padding(key)

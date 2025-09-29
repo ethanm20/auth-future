@@ -1,9 +1,14 @@
+import * as randomstring from "randomstring";
+import * as base32 from 'hi-base32';
+
+
+
 export function GenerateBase32SecretKey() {
-    var randomstring = require("randomstring");
+    //var randomstring = require("randomstring");
 
     const outputStr = randomstring.generate();
 
-    const base32 = require('hi-base32');
+    //const base32 = require('hi-base32');
     const encoded = base32.encode(outputStr)
 
     return encoded

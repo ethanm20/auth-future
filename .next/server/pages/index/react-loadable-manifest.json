@@ -1,0 +1,9 @@
+{
+  "[project]/components/TOTP-Tool/TOTP-Tool.js [client] (ecmascript, next/dynamic entry)": {
+    "id": "[project]/components/TOTP-Tool/TOTP-Tool.js [client] (ecmascript, next/dynamic entry)",
+    "files": [
+      "static/chunks/components_TOTP-Tool_TOTP-Tool_1234be2f.js",
+      "static/chunks/components_TOTP-Tool_TOTP-Tool_4215e4a9.js"
+    ]
+  }
+}

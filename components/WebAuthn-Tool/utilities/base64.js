@@ -1,3 +1,8 @@
+import * as randomstring from "randomstring";
+import * as base32 from 'hi-base64';
+
+
+
 export var Base64Binary = {
 	_keyStr : "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=",
 	
@@ -70,11 +75,11 @@ export function arrayBufferToBase64( buffer ) {
 
 
 export function GenerateBase64SecretKey() {
-    var randomstring = require("randomstring");
+    //var randomstring = require("randomstring");
 
     const outputStr = randomstring.generate();
 
-    const base32 = require('hi-base64');
+    //const base32 = require('hi-base64');
     let encoded = base32.encode(outputStr, false, 'rfc_4648_url_safe')
 
     encoded = encoded.replace('=', '')

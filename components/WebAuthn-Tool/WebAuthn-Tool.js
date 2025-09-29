@@ -36,7 +36,9 @@ import { renderLoginPublicKeyJSON, renderLoginVerifyJSON, renderLoginRetrievalJS
 import 'reactflow/dist/style.css';
 
 
-const CryptoJS = require("crypto-js");
+//const CryptoJS = require("crypto-js");
+import * as CryptoJS from "crypto-js";
+
 
 hljs.registerLanguage("javascript", javascript);
 
