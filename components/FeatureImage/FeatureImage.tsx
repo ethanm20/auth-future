@@ -1,5 +1,6 @@
 import { Container, Row, Col, Button} from 'react-bootstrap';
 
+
 const FeatureImage = () => {
     return (
         <>
@@ -17,7 +18,7 @@ const FeatureImage = () => {
                                 </Col>
                                 <Col md={7}>
                                     <Button variant="outline-light" size="lg" href="#totp-section" className="cta-button">
-                                        Time-Based One Time Passwords <i class="bi bi-arrow-right"></i>
+                                        Time-Based One Time Passwords <i className="bi bi-arrow-right"></i>
                                     </Button>
                                 </Col>
                             </Row>

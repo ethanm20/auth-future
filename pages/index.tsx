@@ -7,6 +7,13 @@ const TOTPTool = dynamic(() => import('@/components/TOTP-Tool/TOTP-Tool'), { ssr
 export default function Home() {
     return (
         <>
+            <FeatureImage/>
+            <WebAuthnTool/>
+            <TOTPTool/>  
+        </>
+    )
+    /*return (
+        <>
             <div>
                 <FeatureImage/>
             </div>
@@ -17,5 +24,5 @@ export default function Home() {
                 <TOTPTool/>
             </div>
         </>
-    )
+    )*/
 }

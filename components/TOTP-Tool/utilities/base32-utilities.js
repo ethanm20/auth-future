@@ -1,9 +1,4 @@
-//const Long = require("long");
-
-//const base32 = require('base32.js');
 import Long from "long";
-
-
 import * as base32 from 'base32.js';
 
 
